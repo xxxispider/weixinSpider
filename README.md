@@ -13,7 +13,7 @@
 - 视频号相关采集（开发中）
 - ...
 ## 联系方式
-- 电报群 https://t.me/+iqXGb01UXNxhMWNl
+- 电报 https://t.me/xxxweixin
 - 邮箱：xxxispider@proton.me
 - potato账号（推荐）
 
