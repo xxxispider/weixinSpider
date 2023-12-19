@@ -14,7 +14,10 @@
 - ...
 ## 联系方式
 - 电报群 https://t.me/+iqXGb01UXNxhMWNl
-- 
+- potato账号
+
+  ![a3680f452d72a089d411bc72114c236](https://github.com/xxxispider/weixinSpider/assets/154309134/9526901d-343d-4ee9-af1f-501dabe82b2e)
+
 # 技术方案
 ## 万能key
 在获取阅读数或者评论数据时需要uin和key。每次请求key是变换的，微信有一个万能key，可以一直持续获取，只要保持更新就行了。
