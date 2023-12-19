@@ -114,13 +114,14 @@ def get_rsp(self, uin, key, __biz, mid, sn, idx, comment_id):
 ## 微信文章官方文章API接口
 微信官方提供的数据api接口，搜狗微信也可以使用哦。
 
-![image](https://github.com/xxxispider/weixinSpider/assets/154309134/9ad41221-8736-4250-970c-cbb6c71d6e9a)
+![image](https://github.com/xxxispider/weixinSpider/assets/154309134/ea4fea18-868e-4afd-ac1e-0d4cdd65cb35)
+
 
 ## 其他功能
 需要其他功能，可以联系我
 
-联系方式
 
+> seo:weixin spider, wechat spider, crawl, 微信爬虫，微信万能key，微信阅读数采集，搜狗微信转永久拦截，微信评论采集，微信公众号采集
 
 
 
