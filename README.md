@@ -13,7 +13,7 @@
 - 视频号相关采集（开发中）
 - ...
 ## 联系方式
-- 电报 https://t.me/xxxweixin
+- 电报（推荐） https://t.me/xxxweixin
 - 邮箱：xxxispider@proton.me
 - potato账号（推荐）
 
@@ -109,7 +109,9 @@ def get_rsp(self, uin, key, __biz, mid, sn, idx, comment_id):
 ![image](https://github.com/xxxispider/weixinSpider/assets/154309134/b9c1b9b2-ef4d-4cd5-9f42-c2f2e927ef48)
 
 ## 微信历史数据采集
-![image](https://github.com/xxxispider/weixinSpider/assets/154309134/9566a399-3545-4eab-b76e-274e0f01da39)
+![image](https://github.com/xxxispider/weixinSpider/assets/154309134/badb9929-00e7-4fe2-ad8b-38da6aaca231)
+
+
 
 ## 微信文章官方文章API接口
 微信官方提供的数据api接口，搜狗微信也可以使用哦。
