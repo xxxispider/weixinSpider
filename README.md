@@ -1,5 +1,5 @@
 # weixinSpider
-> weixin spider, wechat spider, crawl, 微信爬虫，微信万能key，微信阅读数采集，搜狗微信转永久拦截，微信评论采集，微信公众号采集
+> weixin spider, wechat spider, crawl, 微信爬虫，微信万能key，微信阅读数采集，搜狗微信转永久url链接，微信评论采集，微信公众号采集
 
 提供技术解决方案，解决微信相关的采集需求。帮助采集小伙伴解决技术壁垒。
 
