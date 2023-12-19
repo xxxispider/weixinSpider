@@ -14,7 +14,8 @@
 - ...
 ## 联系方式
 - 电报群 https://t.me/+iqXGb01UXNxhMWNl
-- potato账号
+- 邮箱：xxxispider@proton.me
+- potato账号（推荐）
 
 ![image](https://github.com/xxxispider/weixinSpider/assets/154309134/0b9b51ad-5bb4-4dfd-8acb-d57eefcbf365)
 
