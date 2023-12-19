@@ -20,74 +20,74 @@
 代码参考
 ```python
 def get_rsp(self, uin, key, __biz, mid, sn, idx, comment_id):
-headers = {
-    "Host": "mp.weixin.qq.com",
-    "origin": "https://mp.weixin.qq.com",
-    "x-requested-with": "XMLHttpRequest",
-    "user-agent": "自行替换，Mozilla/5.0...............",
-    "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
-    "accept": "*/*",
-    "sec-fetch-site": "same-origin",
-    "sec-fetch-mode": "cors",
-    "sec-fetch-dest": "empty",
-    "accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7"
-}
-
-url = "https://mp.weixin.qq.com/mp/getappmsgext"
-params = {
-    "f": "json",
-    "mock": "",
-    "uin": uin,
-    "key": key,
-    "wxtoken": "777",
-    "devicetype": "Windows&nbsp;11&nbsp;x64",
-    "clientversion": "63060012",
-    "__biz": __biz,
-    "x5": "0"
-}
-data = {
-    # "r": "0.6980405644408527",
-    "__biz": __biz,
-    "appmsg_type": "9",
-    "mid": mid,
-    "sn": sn,
-    "idx": idx,
-    # "scene": "126",
-    "abtest_cookie": "",
-    "devicetype": "Windows 11 x64",
-    "version": "63060012",
-    "is_need_ticket": "0",
-    "is_need_ad": "0",
-    "comment_id": comment_id,
-    "is_need_reward": "0",
-    "both_ad": "0",
-    "reward_uin_count": "0",
-    "send_time": "",
-    "msg_daily_idx": "8",
-    "is_original": "0",
-    "is_only_read": "1",
-    "is_temp_url": "0",
-    "item_show_type": "0",
-    "tmp_version": "1",
-    "more_read_type": "0",
-    "appmsg_like_type": "2",
-    "related_video_sn": "",
-    "related_video_num": "5",
-    "vid": "",
-    "is_pay_subscribe": "0",
-    "pay_subscribe_uin_count": "0",
-    "has_red_packet_cover": "0",
-
-    "album_video_num": "5",
-    "cur_album_id": "undefined",
-    "is_public_related_video": "NaN",
-    "encode_info_by_base64": "undefined",
-    "exptype": ""
-}
-# response = requests.post(url, headers=headers, cookies=None, params=params, data=data, verify=False)
-response = requests.post(url, headers=headers, cookies=None, params=params, data=data, )
-# print(response.text)
-return response
+  headers = {
+      "Host": "mp.weixin.qq.com",
+      "origin": "https://mp.weixin.qq.com",
+      "x-requested-with": "XMLHttpRequest",
+      "user-agent": "自行替换，Mozilla/5.0...............",
+      "content-type": "application/x-www-form-urlencoded; charset=UTF-8",
+      "accept": "*/*",
+      "sec-fetch-site": "same-origin",
+      "sec-fetch-mode": "cors",
+      "sec-fetch-dest": "empty",
+      "accept-language": "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7"
+  }
+  
+  url = "https://mp.weixin.qq.com/mp/getappmsgext"
+  params = {
+      "f": "json",
+      "mock": "",
+      "uin": uin,
+      "key": key,
+      "wxtoken": "777",
+      "devicetype": "Windows&nbsp;11&nbsp;x64",
+      "clientversion": "63060012",
+      "__biz": __biz,
+      "x5": "0"
+  }
+  data = {
+      # "r": "0.6980405644408527",
+      "__biz": __biz,
+      "appmsg_type": "9",
+      "mid": mid,
+      "sn": sn,
+      "idx": idx,
+      # "scene": "126",
+      "abtest_cookie": "",
+      "devicetype": "Windows 11 x64",
+      "version": "63060012",
+      "is_need_ticket": "0",
+      "is_need_ad": "0",
+      "comment_id": comment_id,
+      "is_need_reward": "0",
+      "both_ad": "0",
+      "reward_uin_count": "0",
+      "send_time": "",
+      "msg_daily_idx": "8",
+      "is_original": "0",
+      "is_only_read": "1",
+      "is_temp_url": "0",
+      "item_show_type": "0",
+      "tmp_version": "1",
+      "more_read_type": "0",
+      "appmsg_like_type": "2",
+      "related_video_sn": "",
+      "related_video_num": "5",
+      "vid": "",
+      "is_pay_subscribe": "0",
+      "pay_subscribe_uin_count": "0",
+      "has_red_packet_cover": "0",
+  
+      "album_video_num": "5",
+      "cur_album_id": "undefined",
+      "is_public_related_video": "NaN",
+      "encode_info_by_base64": "undefined",
+      "exptype": ""
+  }
+  # response = requests.post(url, headers=headers, cookies=None, params=params, data=data, verify=False)
+  response = requests.post(url, headers=headers, cookies=None, params=params, data=data, )
+  # print(response.text)
+  return response
 
 ```
 
